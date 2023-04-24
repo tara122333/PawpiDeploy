@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/PawpiDeploy/static/css/main.8669a7f4.css",
-    "main.js": "/PawpiDeploy/static/js/main.84691317.js",
+    "main.css": "/PawpiDeploy/static/css/main.77e49cd4.css",
+    "main.js": "/PawpiDeploy/static/js/main.c0075285.js",
+    "static/media/couplecat.png": "/PawpiDeploy/static/media/couplecat.247cff759c054b49e550.png",
     "static/media/toys.png": "/PawpiDeploy/static/media/toys.db7a8c97c0409fe0a563.png",
+    "static/media/dogsupplies.png": "/PawpiDeploy/static/media/dogsupplies.526b8ea329657eed4303.png",
     "static/media/food.png": "/PawpiDeploy/static/media/food.294fc2b8ab2e33e16e81.png",
     "static/media/YellowBanner.png": "/PawpiDeploy/static/media/YellowBanner.6542517f081aba449a4e.png",
     "static/media/Product5.png": "/PawpiDeploy/static/media/Product5.edd7987dd23a12c1b62a.png",
@@ -30,28 +32,33 @@
     "static/media/toys2.png": "/PawpiDeploy/static/media/toys2.ab24e8724a2d3744b5b6.png",
     "static/media/Png-01.png": "/PawpiDeploy/static/media/Png-01.6b58d7cce92bcbc2e58e.png",
     "static/media/logoFooter.png": "/PawpiDeploy/static/media/logoFooter.a302903bd0f99947feb1.png",
+    "static/media/animalsdoodle.png": "/PawpiDeploy/static/media/animalsdoodle.193cde6b6468be3bd677.png",
     "static/media/litter.png": "/PawpiDeploy/static/media/litter.f4f0398848028873c76b.png",
+    "static/media/NavSmLOGO.png": "/PawpiDeploy/static/media/NavSmLOGO.4af2f63dd11c29361221.png",
     "static/media/brandbackground.jpg": "/PawpiDeploy/static/media/brandbackground.0dabcdef3665919208fe.jpg",
     "static/media/shampoo.png": "/PawpiDeploy/static/media/shampoo.3f1f7c321e256aa9c9b5.png",
     "static/media/nulo.png": "/PawpiDeploy/static/media/nulo.924fbad6930e1117d5d8.png",
     "static/media/foamcleanser.png": "/PawpiDeploy/static/media/foamcleanser.16352eeb4fb0a04fbf3b.png",
     "static/media/trixie.png": "/PawpiDeploy/static/media/trixie.9453c04e1912f833cce4.png",
+    "static/media/pawdoodle.png": "/PawpiDeploy/static/media/pawdoodle.328a1f9c13d222db0c4a.png",
     "static/media/hills.png": "/PawpiDeploy/static/media/hills.8d0e5a192b80c55b5724.png",
     "static/media/nutro.png": "/PawpiDeploy/static/media/nutro.870d769c54a386d2d0a8.png",
     "static/media/royalcanin.png": "/PawpiDeploy/static/media/royalcanin.73c5cfe7d27a667d2bc4.png",
     "static/media/acana.png": "/PawpiDeploy/static/media/acana.5c7715cd9b8b430801cf.png",
     "static/media/shopping-cart.png": "/PawpiDeploy/static/media/shopping-cart.f58f961dbbd5c6d29759.png",
+    "static/media/bonedoodle.png": "/PawpiDeploy/static/media/bonedoodle.81bea30fa0d34571a957.png",
+    "static/media/hangingcatdoodle.png": "/PawpiDeploy/static/media/hangingcatdoodle.ea8319924e137199505f.png",
     "static/media/aj.png": "/PawpiDeploy/static/media/aj.9dd0276993514772e824.png",
     "static/media/slick.svg": "/PawpiDeploy/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/PawpiDeploy/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/PawpiDeploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/PawpiDeploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/PawpiDeploy/index.html",
-    "main.8669a7f4.css.map": "/PawpiDeploy/static/css/main.8669a7f4.css.map",
-    "main.84691317.js.map": "/PawpiDeploy/static/js/main.84691317.js.map"
+    "main.77e49cd4.css.map": "/PawpiDeploy/static/css/main.77e49cd4.css.map",
+    "main.c0075285.js.map": "/PawpiDeploy/static/js/main.c0075285.js.map"
   },
   "entrypoints": [
-    "static/css/main.8669a7f4.css",
-    "static/js/main.84691317.js"
+    "static/css/main.77e49cd4.css",
+    "static/js/main.c0075285.js"
   ]
 }
