@@ -24,6 +24,9 @@ import PrivacyPolicy from '../Components/PrivacyPolicy/PrivacyPolicy';
 import CookiePolicy from '../Components/CookiePolicy/CookiePolicy';
 import OfferTerms from '../Components/OfferTerms/OfferTerms';
 import PhisingAndFraud from '../Components/PhisingAndFraud/PhisingAndFraud';
+import Signup from '../Components/Login and Signup/Signup';
+import LoginPopup from '../Components/Login and Signup/LoginPopup';
+
 
 
 const DefaultHome = () => {
@@ -55,6 +58,11 @@ const DefaultHome = () => {
           {type === 'cookiepolicy' && <CookiePolicy/> }
           {type === 'offerterms' && <OfferTerms/> }
           {type === 'phisingandfraud' && <PhisingAndFraud/> }
+          {type === 'login' && <LoginPopup/> }
+          {type === 'Signup' && <Signup/> }
+
+
+
         </div>
     </>
   )

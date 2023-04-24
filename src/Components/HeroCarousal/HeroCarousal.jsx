@@ -14,7 +14,7 @@ import { NextArrow, PrevArrow } from "./ArrowCarousel";
 
 const HeroCarousal = () => {
  
-    const settings = {
+    const settingsLg = {
       arrows: true,
       dots:true,
       infinite: true,
@@ -27,18 +27,57 @@ const HeroCarousal = () => {
       prevArrow:<PrevArrow/>,
     };
 
+    const settingsSm = {
+      arrows: false,
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay : true,
+      pauseOnHover: true,
+      nextArrow:<NextArrow/>,
+      prevArrow:<PrevArrow/>,
+    };
+
  const HeroCarouselData=[
-        YellowBanner,Banner2,Banner5,Banner4,Banner6
- ]
+        YellowBanner,Banner2,Banner5,Banner4,Banner6]
   return (
-    <Slider {...settings}>
-    {
-      HeroCarouselData.map((data)=>(
-        <div className="h-96 w-full ">
-          <img className="h-full w-full cursor-pointer " src={data} alt="CarouselImage" /></div>
-      ))
-    }
-    </Slider>
+    <>
+    <div className="hidden lg:contents outline-none">
+      <Slider {...settingsLg}>
+      {
+        HeroCarouselData.map((data)=>(
+          <div className="h-96 w-full ">
+            <img className="h-full w-full scale-y-110 cursor-pointer " src={data} alt="CarouselImage" /></div>
+        ))
+      }
+      </Slider>
+    </div>
+
+    <div className="md:hidden outline-none">
+      <Slider {...settingsSm}>
+      {
+        HeroCarouselData.map((data)=>(
+          <div className="h-48 w-full ">
+            <img className="h-full w-full" src={data} alt="CarouselImage" /></div>
+        ))
+      }
+      </Slider>
+    </div>
+
+    <div className="hidden md:contents lg:hidden outline-none">
+      <Slider {...settingsSm}>
+      {
+        HeroCarouselData.map((data)=>(
+          <div className="h-80 w-full ">
+            <img className="h-full w-full" src={data} alt="CarouselImage" /></div>
+        ))
+      }
+      </Slider>
+    </div>
+
+    </>
   );
 };
 export default HeroCarousal;
